@@ -24,5 +24,7 @@ jobs:
   
     - name: Compile, build and push
       run: |
+        mvn package
+        docker build --tag 
         #### AUFGABE 3 COMPILE, DOCKER BUILD UND PUSH
           # hier ist Platz für maven package und docker build
