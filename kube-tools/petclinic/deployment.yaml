@@ -30,7 +30,7 @@ spec:
 ---
 ### Hier wird der Service der Anwendung erstellt
 apiVersion: v1
-kind:
+kind: Service
 metadata:
   name: petclinic-service
   namespace: petclinic
